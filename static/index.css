@@ -151,7 +151,7 @@ pre {
 
 .show {
   transition: all 1s;
-  opacity: 1;
+  opacity: 1!important;
 }
 
 .hide {
@@ -175,8 +175,6 @@ pre {
   transition: all 1s;
 }
 
-
-
 .ggb {
   background-color: #080b13;
   transition: all 1s;
@@ -190,4 +188,22 @@ pre {
 body {
   height: 100vh;
   width: 100vw;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btns {
+  transform: scale(2, 2);
+}
+.btns button {
+  width: 80px;
 }
